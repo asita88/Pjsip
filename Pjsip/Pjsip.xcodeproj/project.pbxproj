@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9BB12C82129A43400CBE4B8 /* Pjsip.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BB12C62129A43400CBE4B8 /* Pjsip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BB12CF2129A58000CBE4B8 /* CallCFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BB12CE2129A58000CBE4B8 /* CallCFunction.h */; };
+		D9BB12D12129A59300CBE4B8 /* PJSUAWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BB12D02129A59300CBE4B8 /* PJSUAWrapper.h */; };
+		D9BB12D32129A5B200CBE4B8 /* PJSUAWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BB12D22129A5B200CBE4B8 /* PJSUAWrapper.m */; };
+		FE89A55CD864ADA50ADC6996 /* libPods-Pjsip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC7C06A0ABBD4279A0E480D /* libPods-Pjsip.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AC7C06A0ABBD4279A0E480D /* libPods-Pjsip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pjsip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAB7B14934E41A9D6DDD5DE /* Pods-Pjsip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pjsip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pjsip/Pods-Pjsip.release.xcconfig"; sourceTree = "<group>"; };
+		D9BB12C32129A43400CBE4B8 /* Pjsip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pjsip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BB12C62129A43400CBE4B8 /* Pjsip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pjsip.h; sourceTree = "<group>"; };
+		D9BB12C72129A43400CBE4B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BB12CE2129A58000CBE4B8 /* CallCFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallCFunction.h; sourceTree = "<group>"; };
+		D9BB12D02129A59300CBE4B8 /* PJSUAWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJSUAWrapper.h; sourceTree = "<group>"; };
+		D9BB12D22129A5B200CBE4B8 /* PJSUAWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSUAWrapper.m; sourceTree = "<group>"; };
+		F1593E894E3A57BE33F86857 /* Pods-Pjsip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pjsip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pjsip/Pods-Pjsip.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9BB12BF2129A43400CBE4B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE89A55CD864ADA50ADC6996 /* libPods-Pjsip.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B880CDA39ABE8E9A50448E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC7C06A0ABBD4279A0E480D /* libPods-Pjsip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83272D7887483092C0799F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1593E894E3A57BE33F86857 /* Pods-Pjsip.debug.xcconfig */,
+				8FAB7B14934E41A9D6DDD5DE /* Pods-Pjsip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9BB12B92129A43400CBE4B8 = {
+			isa = PBXGroup;
+			children = (
+				D9BB12C52129A43400CBE4B8 /* Pjsip */,
+				D9BB12C42129A43400CBE4B8 /* Products */,
+				83272D7887483092C0799F67 /* Pods */,
+				75B880CDA39ABE8E9A50448E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9BB12C42129A43400CBE4B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB12C32129A43400CBE4B8 /* Pjsip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9BB12C52129A43400CBE4B8 /* Pjsip */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB12C62129A43400CBE4B8 /* Pjsip.h */,
+				D9BB12C72129A43400CBE4B8 /* Info.plist */,
+				D9BB12CE2129A58000CBE4B8 /* CallCFunction.h */,
+				D9BB12D02129A59300CBE4B8 /* PJSUAWrapper.h */,
+				D9BB12D22129A5B200CBE4B8 /* PJSUAWrapper.m */,
+			);
+			path = Pjsip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D9BB12C02129A43400CBE4B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB12D12129A59300CBE4B8 /* PJSUAWrapper.h in Headers */,
+				D9BB12CF2129A58000CBE4B8 /* CallCFunction.h in Headers */,
+				D9BB12C82129A43400CBE4B8 /* Pjsip.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D9BB12C22129A43400CBE4B8 /* Pjsip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BB12CB2129A43400CBE4B8 /* Build configuration list for PBXNativeTarget "Pjsip" */;
+			buildPhases = (
+				BE7D2F75CF99460410EEC10E /* [CP] Check Pods Manifest.lock */,
+				D9BB12BE2129A43400CBE4B8 /* Sources */,
+				D9BB12BF2129A43400CBE4B8 /* Frameworks */,
+				D9BB12C02129A43400CBE4B8 /* Headers */,
+				D9BB12C12129A43400CBE4B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pjsip;
+			productName = Pjsip;
+			productReference = D9BB12C32129A43400CBE4B8 /* Pjsip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9BB12BA2129A43400CBE4B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sanyam Jain";
+				TargetAttributes = {
+					D9BB12C22129A43400CBE4B8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D9BB12BD2129A43400CBE4B8 /* Build configuration list for PBXProject "Pjsip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9BB12B92129A43400CBE4B8;
+			productRefGroup = D9BB12C42129A43400CBE4B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9BB12C22129A43400CBE4B8 /* Pjsip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9BB12C12129A43400CBE4B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE7D2F75CF99460410EEC10E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pjsip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9BB12BE2129A43400CBE4B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BB12D32129A5B200CBE4B8 /* PJSUAWrapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9BB12C92129A43400CBE4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9BB12CA2129A43400CBE4B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9BB12CC2129A43400CBE4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1593E894E3A57BE33F86857 /* Pods-Pjsip.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T9AV2926J9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Pjsip/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patch.Pjsip;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9BB12CD2129A43400CBE4B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FAB7B14934E41A9D6DDD5DE /* Pods-Pjsip.release.xcconfig */;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T9AV2926J9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Pjsip/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.patch.Pjsip;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9BB12BD2129A43400CBE4B8 /* Build configuration list for PBXProject "Pjsip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BB12C92129A43400CBE4B8 /* Debug */,
+				D9BB12CA2129A43400CBE4B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BB12CB2129A43400CBE4B8 /* Build configuration list for PBXNativeTarget "Pjsip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BB12CC2129A43400CBE4B8 /* Debug */,
+				D9BB12CD2129A43400CBE4B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9BB12BA2129A43400CBE4B8 /* Project object */;
+}
